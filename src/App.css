@@ -1,0 +1,105 @@
+/* Global reset & body */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f2f5;
+}
+
+/* Navbar styles */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: navy;
+  padding: 15px 30px;
+  color: white;
+}
+
+/* Website logo / title on left */
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Nav links on the right */
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+}
+
+/* Individual nav items */
+.nav-links li {
+  display: inline-block;
+  margin: 0;
+}
+
+/* Link style */
+.nav-links li a {
+  color: azure;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* No hover highlight */
+.nav-links li a:hover {
+  color: azure;
+}
+
+/* Optional: Sticky nav */
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* About box (you added earlier) */
+.About {
+  height: 200px;
+  width: 200px;
+  border: 1px solid black;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: aqua;
+}
+
+/* Card styles */
+.card {
+  max-width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin: 2rem auto;
+  text-align: center;
+  background-color: #fff;
+}
+
+.card-img {
+  width: 100%;
+  height: auto;
+}
+
+.card-body {
+  padding: 1rem;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+/* Card grid for multiple cards */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+}
